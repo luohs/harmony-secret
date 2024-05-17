@@ -33,6 +33,18 @@
           }
         ]
       }
+    ],
+    "requestPermissions": [
+      {
+        "name" : "ohos.permission.DISTRIBUTED_DATASYNC",
+        "reason": "$string:Reason_label",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when":"inuse"
+        }
+      }
     ]
   }
 }

@@ -1,8 +1,11 @@
 import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
+import PermissionManager from '../commons/PermissionsManager'
 
 export default class EntryAbility extends UIAbility {
+  private permissionManager: PermissionManager = PermissionManager.getInstance();
+
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
   }

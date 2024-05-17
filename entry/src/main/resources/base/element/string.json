@@ -11,6 +11,15 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
-    }
+    },
+    {
+      "name": "Reason_label",
+      "value": "distribute async"
+    },
+    {
+      "name": "custom_distributed_dataSync_tips_permissions_denied",
+      "value": "distributed data sync permissions denied"
+    },
+
   ]
 }
